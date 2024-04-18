@@ -9,7 +9,9 @@ body {
   padding: 1rem;
   background-color: var(--color--background);
   color: var(--text-color);
-  font-family: "Oswald", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .title {
@@ -32,4 +34,9 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--color--background);
+}
+
+.title-challenge {
+  font-size: 1.5rem;
+  border-bottom: 2px solid white;
 }
