@@ -16,16 +16,16 @@
 
 <body>
     <main>
+        <div class="title">
+            <h1>Desafíos de Pensamiento Lógico</h1>
+            <p>Este sitio web es la recopilación de los ejercicios de pensamiento lógico del curso del mismo nombre
+                de la plataforma de Platzi</p>
+        </div>
         <section class="one">
-            <div class="title">
-                <h1>Desafíos de Pensamiento Lógico</h1>
-                <p>Este sitio web es la recopilación de los ejercicios de pensamiento lógico del curso del mismo nombre
-                    de la plataforma de Platzi</p>
-            </div>
             <div class="title-challenge">
                 <h2>Desafió 1</h2>
             </div>
-            <div class="div-one">
+            <div class="div-challenge">
                 <h2>Descripción del reto</h2>
                 <p>Tengo 3 cajas, cada una contiene un tipo de fruta diferente (peras, manzanas y naranjas). El problema
                     es que todas las cajas tienen las etiquetas de las frutas incorrectas. ¿Cuántas cajas necesito abrir
@@ -39,10 +39,62 @@
             <div>
                 <h2>Respuesta</h2>
                 <p>
-                    Solo toca abrir una, dado que justamente dice que todas las cajas tienen la etiqueta errónea, por
-                    ende si abrimos la primera 🍐 y sale 🍎, sabemos que en la caja de 🍎 tiene 🍊 y por tanto 🍊 tiene
-                    🍐
+                    ¡La repuesta correcta es que solo debemos abrir UNA caja!
                 </p>
+                <p>Veamos los factores importantes para esta decisión:</p>
+                <ul>
+                    <li>
+                        Existen tres cajas con etiquetas, pero ninguna etiqueta coincide con el contenido de la caja.
+                    </li>
+                    <li>
+                        Imaginemos que abrimos la caja que tiene la etiqueta de Peras y dentro de la caja vemos
+                        Manzanas.
+                    </li>
+                    <li>
+                        Luego de ver el contenido de esta primera caja (en este caso, Manzanas), voy a la caja que tenga
+                        la etiqueta de esa fruta (Manzanas) y se la quito para colocar la etiqueta anterior (siguiendo
+                        el ejemplo: Peras).
+                    </li>
+                    <li>
+                        Teniendo esto en cuenta, solo nos quedan dos cajas (una que tenia la etiqueta de manzanas y la
+                        que permanece con las etiquetas de naranja).
+                    </li>
+                    <li>
+                        Finalmente solo tenemos que intercambiar las etiquetas de las cajas restantes… ¡y listo!
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="two">
+            <div class="title-challenge">
+                <h2>Desafió 2</h2>
+            </div>
+            <div class="div-challenge">
+                <h2>Descripción del reto</h2>
+                <p>Encuentra la lógica de las siguientes operaciones y números:</p>
+                <ul>
+                    <li>5 + 4 = 19</li>
+                    <li>8 + 2 = 610</li>
+                    <li>10 + 8 = 218</li>
+                    <li>12 + 9 = 321</li>
+                    <li>18 + 2 = 1620</li>
+                    <li>21 + 5 = 1626</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Respuesta</h2>
+                <p>
+                    Las operaciones correctas para llegar a la solución son las siguientes:
+                </p>
+                <ul>
+                    <li>(5-4) = 1 : (5+4) = 9 → 19</li>
+                    <li>(8-2) = 6 : (8+2) = 10 → 610</li>
+                    <li>(10-8) = 2 : (10+8) = 18 → 218</li>
+                    <li>(12-9) = 3 : (12+9) = 21 → 321</li>
+                    <li>(18-2) = 16 : (18+2) = 20 → 1620</li>
+                    <li>(21-5) = 16 : (21+5) = 26 → 1626</li>
+                </ul>
             </div>
         </section>
     </main>
