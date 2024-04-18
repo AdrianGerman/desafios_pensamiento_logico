@@ -5,8 +5,31 @@
 
 html,
 body {
-  margin: 2rem;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
   background-color: var(--color--background);
   color: var(--text-color);
+  font-family: "Oswald", sans-serif;
+}
+
+.title {
+  padding-bottom: 2rem;
+  margin-bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: #76428a;
+}
+
+.title h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--color--background);
+}
+
+.title p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--color--background);
 }
