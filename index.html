@@ -1,172 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desafíos de pensamiento lógico</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
     <!-- fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-        rel="stylesheet">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <main>
-        <div class="title">
-            <h1>Desafíos de Pensamiento Lógico</h1>
-            <p>Este sitio web es la recopilación de los ejercicios de pensamiento lógico del curso del mismo nombre
-                de la plataforma de Platzi</p>
+      <div class="title">
+        <h1>Desafíos de Pensamiento Lógico</h1>
+        <p>
+          Este sitio web es la recopilación de los ejercicios de pensamiento lógico del curso del
+          mismo nombre de la plataforma de Platzi
+        </p>
+      </div>
+      <section class="one">
+        <div class="title-challenge">
+          <h2>Desafió 1</h2>
         </div>
-        <section class="one">
-            <div class="title-challenge">
-                <h2>Desafió 1</h2>
-            </div>
-            <div class="div-challenge">
-                <h2>Descripción del reto</h2>
-                <p>Tengo 3 cajas, cada una contiene un tipo de fruta diferente (peras, manzanas y naranjas). El problema
-                    es que todas las cajas tienen las etiquetas de las frutas incorrectas. ¿Cuántas cajas necesito abrir
-                    para saber colocar todas las etiquetas correctamente?</p>
-                <ul>
-                    <li>🍐 Peras</li>
-                    <li>🍎 Manzanas</li>
-                    <li>🍊 Naranjas</li>
-                </ul>
-            </div>
-            <div>
-                <h2>Respuesta</h2>
-                <p>
-                    ¡La repuesta correcta es que solo debemos abrir UNA caja!
-                </p>
-                <p>Veamos los factores importantes para esta decisión:</p>
-                <ul>
-                    <li>
-                        Existen tres cajas con etiquetas, pero ninguna etiqueta coincide con el contenido de la caja.
-                    </li>
-                    <li>
-                        Imaginemos que abrimos la caja que tiene la etiqueta de Peras y dentro de la caja vemos
-                        Manzanas.
-                    </li>
-                    <li>
-                        Luego de ver el contenido de esta primera caja (en este caso, Manzanas), voy a la caja que tenga
-                        la etiqueta de esa fruta (Manzanas) y se la quito para colocar la etiqueta anterior (siguiendo
-                        el ejemplo: Peras).
-                    </li>
-                    <li>
-                        Teniendo esto en cuenta, solo nos quedan dos cajas (una que tenia la etiqueta de manzanas y la
-                        que permanece con las etiquetas de naranja).
-                    </li>
-                    <li>
-                        Finalmente solo tenemos que intercambiar las etiquetas de las cajas restantes… ¡y listo!
-                    </li>
-                </ul>
-            </div>
-        </section>
+        <div class="div-challenge">
+          <h2>Descripción del reto</h2>
+          <p>
+            Tengo 3 cajas, cada una contiene un tipo de fruta diferente (peras, manzanas y
+            naranjas). El problema es que todas las cajas tienen las etiquetas de las frutas
+            incorrectas. ¿Cuántas cajas necesito abrir para saber colocar todas las etiquetas
+            correctamente?
+          </p>
+          <ul>
+            <li>🍐 Peras</li>
+            <li>🍎 Manzanas</li>
+            <li>🍊 Naranjas</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Respuesta</h2>
+          <p>¡La repuesta correcta es que solo debemos abrir UNA caja!</p>
+          <p>Veamos los factores importantes para esta decisión:</p>
+          <ul>
+            <li>
+              Existen tres cajas con etiquetas, pero ninguna etiqueta coincide con el contenido de
+              la caja.
+            </li>
+            <li>
+              Imaginemos que abrimos la caja que tiene la etiqueta de Peras y dentro de la caja
+              vemos Manzanas.
+            </li>
+            <li>
+              Luego de ver el contenido de esta primera caja (en este caso, Manzanas), voy a la caja
+              que tenga la etiqueta de esa fruta (Manzanas) y se la quito para colocar la etiqueta
+              anterior (siguiendo el ejemplo: Peras).
+            </li>
+            <li>
+              Teniendo esto en cuenta, solo nos quedan dos cajas (una que tenia la etiqueta de
+              manzanas y la que permanece con las etiquetas de naranja).
+            </li>
+            <li>
+              Finalmente solo tenemos que intercambiar las etiquetas de las cajas restantes… ¡y
+              listo!
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <section class="two">
-            <div class="title-challenge">
-                <h2>Desafió 2</h2>
-            </div>
-            <div class="div-challenge">
-                <h2>Descripción del reto</h2>
-                <p>Encuentra la lógica de las siguientes operaciones y números:</p>
-                <ul>
-                    <li>5 + 4 = 19</li>
-                    <li>8 + 2 = 610</li>
-                    <li>10 + 8 = 218</li>
-                    <li>12 + 9 = 321</li>
-                    <li>18 + 2 = 1620</li>
-                    <li>21 + 5 = 1626</li>
-                </ul>
-            </div>
-            <div>
-                <h2>Respuesta</h2>
-                <p>
-                    Las operaciones correctas para llegar a la solución son las siguientes:
-                </p>
-                <ul>
-                    <li>(5-4) = 1 : (5+4) = 9 → 19</li>
-                    <li>(8-2) = 6 : (8+2) = 10 → 610</li>
-                    <li>(10-8) = 2 : (10+8) = 18 → 218</li>
-                    <li>(12-9) = 3 : (12+9) = 21 → 321</li>
-                    <li>(18-2) = 16 : (18+2) = 20 → 1620</li>
-                    <li>(21-5) = 16 : (21+5) = 26 → 1626</li>
-                </ul>
-            </div>
-        </section>
+      <section class="two">
+        <div class="title-challenge">
+          <h2>Desafió 2</h2>
+        </div>
+        <div class="div-challenge">
+          <h2>Descripción del reto</h2>
+          <p>Encuentra la lógica de las siguientes operaciones y números:</p>
+          <ul>
+            <li>5 + 4 = 19</li>
+            <li>8 + 2 = 610</li>
+            <li>10 + 8 = 218</li>
+            <li>12 + 9 = 321</li>
+            <li>18 + 2 = 1620</li>
+            <li>21 + 5 = 1626</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Respuesta</h2>
+          <p>Las operaciones correctas para llegar a la solución son las siguientes:</p>
+          <ul>
+            <li>(5-4) = 1 : (5+4) = 9 → 19</li>
+            <li>(8-2) = 6 : (8+2) = 10 → 610</li>
+            <li>(10-8) = 2 : (10+8) = 18 → 218</li>
+            <li>(12-9) = 3 : (12+9) = 21 → 321</li>
+            <li>(18-2) = 16 : (18+2) = 20 → 1620</li>
+            <li>(21-5) = 16 : (21+5) = 26 → 1626</li>
+          </ul>
+        </div>
+      </section>
 
-        <section class="three">
-            <div class="title-challenge">
-                <h2>Desafió 3</h2>
-            </div>
-            <div class="div-challenge">
-                <h2>Descripción del reto</h2>
-                <p>Tenemos información de que el conductor José ha llegado justo detrás de Pedro, además de que Miguel
-                    llegó en medio de Francisco y José.</p>
-                <p>¿Cuál es el orden de llegada de los conductores?</p>
-            </div>
-            <div>
-                <h2>Respuesta</h2>
-                <p>
-                    Respuesta correcta: Pedro, José, Miguel y Francisco.
-                </p>
-                <ul>
-                    <li>El conductor José ha llegado justo detrás de Pedro, por lo que ya tenemos las dos primeros
-                        posiciones → Pedro y José.
-                    </li>
-                    <li>Miguel ha llegado en medio de Francisco y José. Este último conductor ya tiene su posición
-                        asignada, por lo que solo nos falta Miguel por agregar seguido del conductor Francisco, así que
-                        tenemos los dos corredores restantes ya organizados → Miguel, Francisco (recuerda que nunca nos
-                        especificaron quién llegó primero entre Francisco y Jose, solo sabíamos que Miguel había llegado
-                        entre ellos dos).
-                    </li>
-                    <li>Finalmente, el orden es:
-                        <ul>
-                            <li>Pedro</li>
-                            <li>José</li>
-                            <li>Miguel</li>
-                            <li>Francisco</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </section>
+      <section class="three">
+        <div class="title-challenge">
+          <h2>Desafió 3</h2>
+        </div>
+        <div class="div-challenge">
+          <h2>Descripción del reto</h2>
+          <p>
+            Tenemos información de que el conductor José ha llegado justo detrás de Pedro, además de
+            que Miguel llegó en medio de Francisco y José.
+          </p>
+          <p>¿Cuál es el orden de llegada de los conductores?</p>
+        </div>
+        <div>
+          <h2>Respuesta</h2>
+          <p>Respuesta correcta: Pedro, José, Miguel y Francisco.</p>
+          <ul>
+            <li>
+              El conductor José ha llegado justo detrás de Pedro, por lo que ya tenemos las dos
+              primeros posiciones → Pedro y José.
+            </li>
+            <li>
+              Miguel ha llegado en medio de Francisco y José. Este último conductor ya tiene su
+              posición asignada, por lo que solo nos falta Miguel por agregar seguido del conductor
+              Francisco, así que tenemos los dos corredores restantes ya organizados → Miguel,
+              Francisco (recuerda que nunca nos especificaron quién llegó primero entre Francisco y
+              Jose, solo sabíamos que Miguel había llegado entre ellos dos).
+            </li>
+            <li>
+              Finalmente, el orden es:
+              <ul>
+                <li>Pedro</li>
+                <li>José</li>
+                <li>Miguel</li>
+                <li>Francisco</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <section class="four">
-            <div class="title-challenge">
-                <h2>Desafió 4</h2>
-            </div>
-            <div class="div-challenge">
-                <h2>Descripción del reto</h2>
-                <p>Encuentra la lógica en las siguientes operaciones y números:</p>
-                <li>3 = 27</li>
-                <li>4 = 36</li>
-                <li>5 = 45</li>
-                <li>6 = 54</li>
-                <li>7 = 63</li>
-                <li>8 = 72</li>
-                <li>9 = ??</li>
-            </div>
-            <div>
-                <h2>Respuesta</h2>
-                <p>
-                    La operación correcta es aplicar la tabla del 9:
-                </p>
-                <ul>
-                    <li>3 * 9 = 27</li>
-                    <li>4 * 9 = 36</li>
-                    <li>5 * 9 = 45</li>
-                    <li>6 * 9 = 54</li>
-                    <li>7 * 9 = 63</li>
-                    <li>8 * 9 = 72</li>
-                    <li>9 * 9 = 81 (📌 Respuesta correcta)</li>
-                </ul>
-            </div>
-        </section>
+      <section class="four">
+        <div class="title-challenge">
+          <h2>Desafió 4</h2>
+        </div>
+        <div class="div-challenge">
+          <h2>Descripción del reto</h2>
+          <p>Encuentra la lógica en las siguientes operaciones y números:</p>
+          <ul>
+            <li>3 = 27</li>
+            <li>4 = 36</li>
+            <li>5 = 45</li>
+            <li>6 = 54</li>
+            <li>7 = 63</li>
+            <li>8 = 72</li>
+            <li>9 = ??</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Respuesta</h2>
+          <p>La operación correcta es aplicar la tabla del 9:</p>
+          <ul>
+            <li>3 * 9 = 27</li>
+            <li>4 * 9 = 36</li>
+            <li>5 * 9 = 45</li>
+            <li>6 * 9 = 54</li>
+            <li>7 * 9 = 63</li>
+            <li>8 * 9 = 72</li>
+            <li>9 * 9 = 81 (📌 Respuesta correcta)</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="five">
+        <div class="title-challenge">
+          <h2>Desafió 5</h2>
+        </div>
+        <div class="div-challenge">
+          <h2>Descripción del reto</h2>
+          <p>Encuentra el resultado de la siguiente operación matemática:</p>
+          <p>4 * 3 + 7 * 5 - 55 ÷ 11 + 9</p>
+        </div>
+        <div>
+          <h2>Respuesta</h2>
+          <p>
+            La clave para esto es que tenga en mente la ley de los signos, los cuales se deben
+            resolver tomando en cuenta el siguiente orden:
+          </p>
+          <ul>
+            <li>( * ) - Producto</li>
+            <li>( ÷ ) - División</li>
+            <li>( + ) - Suma</li>
+            <li>( - ) - Resta</li>
+          </ul>
+          <p>La solución correcta es:</p>
+          <ul>
+            <li>
+              Resuelve el <b>producto</b>
+              <p>
+                <b>12 + 35 - 55 ÷ 11 + 9</b>
+              </p>
+            </li>
+            <li>
+              Luego, continúa con la <b>división</b>
+              <p>
+                <b>12 + 35 - 5 + 9</b>
+              </p>
+            </li>
+            <li>
+              Realiza las <b>sumas</b>
+              <p>
+                <b>56 - 5</b>
+              </p>
+            </li>
+            <li>
+              Finalmente, las <b>restas</b>
+              <p>El resultado es: <b>51</b></p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
