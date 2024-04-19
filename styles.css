@@ -22,6 +22,15 @@ ul li {
   margin: 1rem;
 }
 
+ul li img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  border-radius: 6px;
+}
+
 .div-challenge {
   margin-bottom: 4rem;
 }
@@ -51,4 +60,9 @@ ul li {
 .title-challenge {
   font-size: 1.5rem;
   border-bottom: 2px solid white;
+}
+
+.solution-img-seven {
+  margin: 2rem;
+  margin-left: 0;
 }
